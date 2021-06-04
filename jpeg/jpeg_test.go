@@ -11,8 +11,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ChelinTsien/go-libjpeg/jpeg"
-	"github.com/ChelinTsien/go-libjpeg/test/util"
+	"github.com/chelintsien/go-libjpeg/jpeg"
+	"github.com/chelintsien/go-libjpeg/test/util"
 )
 
 var naturalImageFiles = []string{
@@ -421,7 +421,7 @@ func TestEncodeRGBA(t *testing.T) {
 	}
 }
 
-// See: https://github.com/ChelinTsien/go-libjpeg/issues/36
+// See: https://github.com/chelintsien/go-libjpeg/issues/36
 func TestDecodeAndEncodeRGBADisableFancyUpsampling(t *testing.T) {
 	src := image.NewRGBA(image.Rect(0, 0, 3000, 2000))
 

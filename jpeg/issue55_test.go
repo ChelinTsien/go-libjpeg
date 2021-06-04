@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ChelinTsien/go-libjpeg/jpeg"
+	"github.com/chelintsien/go-libjpeg/jpeg"
 )
 
-// https://github.com/ChelinTsien/go-libjpeg/issues/55
+// https://github.com/chelintsien/go-libjpeg/issues/55
 func TestDecodeAndEncodeRGBJPEG(t *testing.T) {
 	data := []byte("\xff\xd8\xff\xdb\x00C\x000000000000000" +
 		"00000000000000000000" +
